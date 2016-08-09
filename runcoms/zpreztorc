@@ -101,6 +101,14 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'agnoster'
 
+# 
+# Python
+# Set virtual env project
+export PROJECT_HOME="$HOME/Work/apps"
+# Use python3 by default for virtualenv
+VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+
+
 #
 # Ruby
 #
@@ -150,13 +158,13 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 #
 
 # Auto set the tab and window titles.
-# zstyle ':prezto:module:terminal' auto-title 'yes'
+zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Set the window title format.
-# zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
+zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
 
 # Set the tab title format.
-# zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
+zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 
 #
 # Tmux
@@ -169,4 +177,4 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 # zstyle ':prezto:module:tmux:auto-start' remote 'yes'
 
 # Integrate with iTerm2.
-# zstyle ':prezto:module:tmux:iterm' integrate 'yes'
+zstyle ':prezto:module:tmux:iterm' integrate 'yes'
