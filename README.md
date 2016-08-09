@@ -1,3 +1,5 @@
+(adsahay) - Personal Prezto fork. Use at your own risk. 
+
 Prezto — Instantly Awesome Zsh
 ==============================
 
