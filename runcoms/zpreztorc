@@ -53,7 +53,7 @@ zstyle ':prezto:load' pmodule \
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
@@ -104,9 +104,9 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 # 
 # Python
 # Set virtual env project
-export PROJECT_HOME="$HOME/Work/apps"
+export PROJECT_HOME="$HOME/apps"
 # Use python3 by default for virtualenv
-VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=`which python3`
 
 
 #
