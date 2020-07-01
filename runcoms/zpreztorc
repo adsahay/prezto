@@ -120,7 +120,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'agnoster'
+zstyle ':prezto:module:prompt' theme 'steeef'
 
 # Set the working directory prompt display length.
 # By default, it is set to 'short'. Set it to 'long' (without '~' expansion)
@@ -131,12 +131,12 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 # return codes. This is not supported by all prompts.
 # zstyle ':prezto:module:prompt' show-return-val 'yes'
 
-# 
-# Python
-# Set virtual env project
-export PROJECT_HOME="$HOME/apps"
-# Use python3 by default for virtualenv
-export VIRTUALENVWRAPPER_PYTHON=`which python3`
+## 
+## Python
+## Set virtual env project
+#export PROJECT_HOME="$HOME/apps"
+## Use python3 by default for virtualenv
+#export VIRTUALENVWRAPPER_PYTHON=`which python3`
 
 
 #
